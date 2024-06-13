@@ -1,12 +1,12 @@
 import express from "express";
 import rutaPersona from "./routes/routes.persona";
 
-const server = express();
+const app = express();
 
-server.use("/user", rutaPersona);
+app.use("/user", rutaPersona);
 
 //Middleware
 app.use(express.json());
 
-export default server;
+export default app;
 

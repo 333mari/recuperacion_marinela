@@ -1,0 +1,86 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "persona",
+    "collectionId": "09fee645-96a2-4299-b8e4-b737a4306895",
+    "dateExported": "2024-06-13T15:46:40.787Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7695c776-5eb4-477c-a099-f68d27756ff0",
+            "colId": "09fee645-96a2-4299-b8e4-b737a4306895",
+            "containerId": "",
+            "name": "mostrar",
+            "url": "http://localhost:3000/user/usuario/2",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-06-13T12:33:20.282Z",
+            "modified": "2024-06-13T14:05:34.637Z",
+            "headers": []
+        },
+        {
+            "_id": "d686e644-c86f-4a45-bc56-42949825787d",
+            "colId": "09fee645-96a2-4299-b8e4-b737a4306895",
+            "containerId": "",
+            "name": "listar",
+            "url": "http://localhost:3000/user/usuario/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-06-13T12:33:27.609Z",
+            "modified": "2024-06-13T12:37:58.721Z",
+            "headers": []
+        },
+        {
+            "_id": "ae904f74-fa58-48e3-acac-3289e6152d08",
+            "colId": "09fee645-96a2-4299-b8e4-b737a4306895",
+            "containerId": "",
+            "name": "crear",
+            "url": "http://localhost:3000/user/usuario/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-06-13T12:33:40.392Z",
+            "modified": "2024-06-13T15:34:49.193Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"NOMBRE\": \"ISABELLA\",\n  \"APELLIDO\": \"GARZÓN\",\n  \"EDAD\": \"25\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "83adc898-a652-41b7-921d-8bfd85ace1d9",
+            "colId": "09fee645-96a2-4299-b8e4-b737a4306895",
+            "containerId": "",
+            "name": "modificar",
+            "url": "http://localhost:3000/user/usuario/",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-06-13T12:33:50.569Z",
+            "modified": "2024-06-13T15:19:07.830Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"8\",\n  \"nombre\": \"JAIME\",\n  \"apellido\": \"RUIZ\",\n  \"edad\": \"25\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "0a9062d6-c95e-4458-b6e6-287e4ba21f5e",
+            "colId": "09fee645-96a2-4299-b8e4-b737a4306895",
+            "containerId": "",
+            "name": "eliminar",
+            "url": "http://localhost:3000/user/usuario/",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-06-13T12:33:56.905Z",
+            "modified": "2024-06-13T15:29:03.632Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"8\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "L90_cWVBgysx5VonJ-YSh2Pz3Bi7y7Xb0tBmbPu7UEdUEffaNlHQ05P3B_xL-KET2qdO07aMeYZBlsE8xbyE7w"
+}

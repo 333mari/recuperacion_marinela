@@ -1,6 +1,6 @@
-import server from "./server";
+import app from "./server";
 
-server.listen(3000, ()=>{
+app.listen(3000, ()=>{
     console.log("Estas en el puerto: 3000");
 })
 

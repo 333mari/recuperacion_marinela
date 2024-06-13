@@ -4,6 +4,7 @@
   "description": "recuperación examen api ",
   "main": "index.js",
   "scripts": {
+    "build": "babel app --out-dir dist",
     "dev": "nodemon app/index.js --exec babel-node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
